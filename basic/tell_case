@@ -1,0 +1,26 @@
+package string;
+
+import java.util.Scanner;
+
+public class upper_to_lower {
+	Scanner scn = new Scanner(System.in);
+		public static void main(String[] args) {
+
+			char chr = 'b';
+		tell_case(chr);
+		
+	}
+	public static void tell_case(char chr) {
+		if(chr >= 'a' && chr <= 'z') {
+			System.out.println(" small case ");
+		}else if(chr>= 'A' && chr<= 'Z') {
+			System.out.println(" upper case ");
+		}else {
+			System.out.println(" invalid case");
+		}
+		
+		
+		
+	}
+
+}
